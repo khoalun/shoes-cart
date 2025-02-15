@@ -14,6 +14,12 @@
   color: #303841;
 }
 
+.total-items {
+  font-weight: bold;
+  color: #303841;
+  font-size: 1.1em;
+}
+
 a {
   font-weight: 500;
   color: #646cff;

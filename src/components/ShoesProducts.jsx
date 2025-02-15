@@ -43,7 +43,7 @@ function ShoesProducts()  {
 
       <div className="cardBody">
         {mockData.map((product) => (
-          <div key={product.id}>
+          <div key={`product-${product.id}`}>
             <div className="shopItem">
               <div
                 className="shopItem_image"
