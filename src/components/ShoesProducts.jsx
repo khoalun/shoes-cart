@@ -5,12 +5,12 @@ import { useCart } from "../context/CartContext";
 
 function ShoesProducts()  {
     const {addToCart} = useCart()
-    
+
      const handleAddToCart = (product) => {
         console.log('clicked', product)
         addToCart(product);
      }
-
+     
   return (
     // <div className="products-section">
     //   <h2>Our Products</h2>
